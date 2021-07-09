@@ -25,16 +25,12 @@
                     <div class="header_right_nav_item"><a href="#">Еще...</a></div>
                 </div>
                 <div class="button_items d-flex">
-                    <button class="button_item_1">
-                        <img src="images/phone.background.svg" alt="phone.background">
-                        <img src="images/phone.svg" alt="phone">
-                    </button>
-                    <button class="button_item_2">
-                        <img src="images/person.background.svg" alt="background">
-                        <img src="images/person.svg" alt="person">
-                        <img src="images/person2.svg" alt="person2">
-                    </button>
-                    <button class="button_item_3 radius5">Забронировать</button>
+                    <div class="button_items d-flex">
+                        <div class="button_item_1"><i class="fas fa-phone-square-alt"></i></div>
+                        <div class="button_item_2"><i class="fas fa-user-alt"></i></div>
+                    </div>
+
+                    <button>Забронировать</button>
                 </div>
             </div>
         </header>
@@ -54,8 +50,7 @@
         <div class="salads">
             <section class="salad_parmidgano">
                 <div class="salad_parmidgano_item pad-left207">
-                    <img src="images/salad_background.svg" alt="background">
-                    <div class="d-flex salad_block1">
+                    <div class="d-flex salad_block">
                         <div><img src="images/parmidgano.svg" alt="parmidgano"></div>
                         <div class="salad_parmidgano_content"><h2>Салат пармиджано</h2>
                             <div class=" salad_parmidgano_content_items d-flex">
@@ -80,10 +75,11 @@
                     </div>
                 </div>
             </section>
+
+            </section>
             <section class="salad_parmidgano">
                 <div class="salad_parmidgano_item pad-left207">
-                    <img src="images/salad_background.svg" alt="background">
-                    <div class="d-flex salad_block2">
+                    <div class="d-flex salad_block">
                         <div><img src="images/salad_shrimp.svg" alt="shrimp"></div>
                         <div class="salad_parmidgano_content"><h2>Салат с тигровыми креветками</h2>
                             <div class=" salad_parmidgano_content_items d-flex">
@@ -110,8 +106,7 @@
             </section>
             <section class="salad_parmidgano">
                 <div class="salad_parmidgano_item pad-left207">
-                    <img src="images/salad_background.svg" alt="background">
-                    <div class="d-flex salad_block3">
+                    <div class="d-flex salad_block">
                         <div><img src="images/salad_caesar.svg" alt="caesar"></div>
                         <div class="salad_parmidgano_content"><h2>Салат цезарь</h2>
                             <div class=" salad_parmidgano_content_items d-flex">
@@ -174,7 +169,7 @@
     </div>
 
     <section class="add_to_the_order d-flex pad-left207">
-        <h2>Добавить  к заказу</h2>
+        <h2>Добавить к заказу</h2>
         <button>Перейти в меню</button>
     </section>
     <div class="d-flex add_to_the_order_items ">
@@ -249,7 +244,6 @@
                     <img src="images/white_star.svg" alt="white_star">
                 </div>
             </div>
-            
 
 
             <div class="review_content">
@@ -291,10 +285,61 @@
 
     <section class="send_review pad-left207">
         <form action="">
-            <textarea name="review" placeholder="Развернутый отзыв"></textarea>
+            <div class="send_review_content d-flex">
+                <p><textarea placeholder="Развернутый отзыв"></textarea></p>
+                <p><input type="submit" value="Оставить отзыв"></p>
+            </div>
         </form>
     </section>
 
+    <section class="footer">
+        <div class="footer_section pad-left207">
+            <div class="d-flex">
+                <div>
+                    <div class="d-flex footer_section_items">
+                        <img src="images/logo.svg" alt="logo">
+                    </div>
+                    <div class="footer_section_items_navs d-flex">
+                        <div class="footer_section_items_nav"><a href="#">Политика конфидециальности</a></div>
+                        <div class="footer_section_items_nav"><a href="#">Договор оферты</a></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="d-flex footer_section_items_middle">
+                        <div>
+                            <div class="footer_section_items_middle_item"><a href="#">Главная</a></div>
+                            <div class="footer_section_items_middle_item"><a href="#">Меню</a></div>
+                        </div>
+                        <div>
+                            <div class="footer_section_items_middle_item"><a href="#">Акции</a></div>
+                            <div class="footer_section_items_middle_item"><a href="#">Интерьер</a></div>
+                        </div>
+                        <div>
+                            <div class="footer_section_items_middle_item"><a href="#">Команда</a></div>
+                            <div class="footer_section_items_middle_item"><a href="#">Контакты</a></div>
+                        </div>
+
+                    </div>
+                    <div class="footer_section_items_middle_low"><a href="#">Информация на сайте не является публичной
+                        офертой</a></div>
+                </div>
+
+                <div class="footer_section_items_bottom">
+                    <h2>8 (800) 999-99-99</h2>
+                    <p>Бронь столов с 09:00 до 19:00</p>
+                    <div class="footer_section_items_bottom_icons d-flex">
+                        <i class="fab fa-telegram"></i>
+                        <i class="fab fa-whatsapp-square"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </div>
+
+<script src="https://kit.fontawesome.com/d1d8cf7707.js" crossorigin="anonymous"></script>
 </body>
 </html>
